@@ -2,5 +2,11 @@
 *.png
 *.jpg
 *.jpeg
-.godot
-*.translation
+
+.godot/
+.import/
+export.cfg
+exportpresets.cfg
+.mono/
+data/
+mono_crash..json
