@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://22ljkp7uaorh"]
+
+[ext_resource type="Script" path="res://TurnQueue.gd" id="1_0nhn6"]
+[ext_resource type="Texture2D" uid="uid://c8ja2u1wfd65u" path="res://icon.svg" id="2_1cggx"]
+
+[node name="TurnQueue" type="Node2D"]
+script = ExtResource("1_0nhn6")
+
+[node name="Gobot" type="Sprite2D" parent="."]
+position = Vector2(69, 66)
+texture = ExtResource("2_1cggx")
+
+[node name="Gobot2" type="Sprite2D" parent="."]
+position = Vector2(73, 202)
+texture = ExtResource("2_1cggx")
+
+[node name="Gobot3" type="Sprite2D" parent="."]
+position = Vector2(72, 357)
+texture = ExtResource("2_1cggx")
