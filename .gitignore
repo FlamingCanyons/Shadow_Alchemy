@@ -2,5 +2,5 @@
 *.png
 *.jpg
 *.jpeg
-.godot/
+.godot
 *.translation
