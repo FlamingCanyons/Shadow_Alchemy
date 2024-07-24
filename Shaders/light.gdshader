@@ -43,11 +43,12 @@ vec3 hsv2rgb(vec3 c){
 }
 
 void fragment() {
-	vec2 pos = (FRAGCOORD.xy*TEXTURE_PIXEL_SIZE+vertpos)/100.;
+	//vec2 pos = (FRAGCOORD.xy*TEXTURE_PIXEL_SIZE+vertpos)/100.;
+	vec2 pos = (FRAGCOORD.xy*TEXTURE_PIXEL_SIZE+vertpos)/1.;
 	vec4 lights[8] = {light_0,light_1,light_2,light_3,light_4,light_5,light_6,light_7};
 	int  light_types[8] = {light_type_0,light_type_1,light_type_2,light_type_3,light_type_4,light_type_5,light_type_6,light_type_7};
 	vec4 input_color = texture(TEXTURE,UV);
-	float avg = (input_color.r + input_color.g + input_color.b) / 5.0;
+	//float avg = (input_color.r + input_color.g + input_color.b) / 5.0;
 	bool  in_light = false;
 	int  in_soft_light = 0;
 	float soft_light_value = 0.;
@@ -70,18 +71,18 @@ void fragment() {
 				float tmp_loc_y = loc_y*cos(lights[i].w) - loc_x*sin(lights[i].w); 
 				in_light = in_light || (
 					tmp_loc_x < lights[i].z 
-					&& abs(tmp_loc_y) < abs(tmp_loc_x/3.+2.) 
+					&& abs(tmp_loc_y) < abs(tmp_loc_x/3.+lights[i].z*.05) 
 					&& tmp_loc_x > 0.);
 				bool _in_soft_light = (
 					tmp_loc_x < lights[i].z*1.2 
-					&& abs(tmp_loc_y) < abs(tmp_loc_x/3.+2.)*1.3 
-					&& tmp_loc_x > -1.);
+					&& abs(tmp_loc_y) < abs(tmp_loc_x/3.+lights[i].z*.05)*1.3 
+					&& tmp_loc_x > -lights[i].z*.05);
 				if(_in_soft_light){
 					in_soft_light += 1;
 					float front_buffer_zone  = lights[i].z*1.2 - lights[i].z;
 					float front_buffer_range = tmp_loc_x - lights[i].z;
-					float side_buffer_zone   = abs(tmp_loc_x/3.+2.)*1.3 - abs(tmp_loc_x/3.+2.);
-					float side_buffer_range  = abs(tmp_loc_y) - abs(tmp_loc_x/3.+2.);
+					float side_buffer_zone   = abs(tmp_loc_x/3.+lights[i].z*.05)*1.3 - abs(tmp_loc_x/3.+lights[i].z*.05);
+					float side_buffer_range  = abs(tmp_loc_y) - abs(tmp_loc_x/3.+lights[i].z*.05);
 					float side_weight  = (side_buffer_zone-side_buffer_range)/side_buffer_zone;
 					float front_weight = (front_buffer_zone-front_buffer_range)/front_buffer_zone;
 					if(side_weight > 1. || side_weight < 0.) soft_light_value += front_weight;
@@ -119,7 +120,7 @@ void fragment() {
 		//input_color.g = avg;
 		//input_color.b = avg;
 	}
-	vec2 size = TEXTURE_PIXEL_SIZE;
+	//vec2 size = TEXTURE_PIXEL_SIZE;
 	COLOR = vec4(input_color.r,input_color.g,input_color.b,input_color.a);
 }
 

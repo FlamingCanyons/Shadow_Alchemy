@@ -24,12 +24,14 @@ func _ready():
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
-	light_size.y = get_parent().rotation
+	var elapled_time = (Time.get_ticks_msec() - time_start)/1000.0
+	light_size.y = elapled_time
+	#light_size.y = get_parent().rotation
 	RenderingServer.global_shader_parameter_set(light_name,
 		  Vector4(get_parent().position.x,get_parent().position.y,light_size.x,light_size.y))
 	RenderingServer.global_shader_parameter_set(light_type_name, int(light_type))
 	
-	#var elapled_time = (Time.get_ticks_msec() - time_start)/1000.0
+	
 	#self.position.x = Position.x + sin(elapled_time)*20.0;
 	#self.position.y = Position.y + cos(elapled_time)*20.0;
 	#if(light_type == 1):

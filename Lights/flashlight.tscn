@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://dylu87xbsmm7w"]
 
-[ext_resource type="Script" path="res://flashlight_collision.gd" id="1_q743b"]
+[ext_resource type="Script" path="res://Lights/flashlight_collision.gd" id="1_q743b"]
 
 [node name="flashlight" type="Area2D"]
 
