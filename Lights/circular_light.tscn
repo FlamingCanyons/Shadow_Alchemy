@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://dpix31vcpihud"]
+
+[ext_resource type="Script" path="res://Lights/circle_detector.gd" id="1_vj0a1"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_t545s"]
+
+[node name="circular_light" type="Area2D"]
+
+[node name="circle_detector" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_t545s")
+script = ExtResource("1_vj0a1")

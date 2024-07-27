@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://dylu87xbsmm7w"]
+
+[ext_resource type="Script" path="res://Lights/flashlight_collision.gd" id="1_q743b"]
+
+[node name="flashlight" type="Area2D"]
+
+[node name="flashlight_collision" type="CollisionPolygon2D" parent="."]
+polygon = PackedVector2Array(0, -2, -30, -12, -30, 12, 0, 2)
+script = ExtResource("1_q743b")
