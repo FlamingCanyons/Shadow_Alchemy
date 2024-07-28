@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://6vyxgjf8r7jx"]
+
+[ext_resource type="Texture2D" uid="uid://d2oq7s6gp81jm" path="res://Card_Front_Base.png" id="1_28opx"]
+
+[node name="CardFrontBase" type="Sprite2D"]
+texture = ExtResource("1_28opx")
+centered = false

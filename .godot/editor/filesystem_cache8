@@ -1,28 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1721710552
-Grass_and_rock.tres::TileSet::1638224071174853766::1721700744::0::1::::<><>::uid://d3bcqrk3fu5pp::::res://Tilesets/TX Tileset Grass.png<>uid://c8j0562vb3k42::::res://Tilesets/Smallburg/assets/housing/roofs/housing_system_roofs.png<>uid://byb5q5pem8hpb::::res://Tilesets/Smallburg/assets/housing/walls/house_building_assets_brown.png<>uid://cefm7xchu8lbl::::res://Tilesets/Smallburg/assets/tileset_v2/SmallBurg_outside_assets.png<>uid://c00b221e00kh8::::res://Tilesets/Smallburg/assets/tileset_v2/SmallBurg_outside_assets_shadows.png<>uid://bjc4ywtml3ilq::::res://Tilesets/Smallburg/assets/housing/house_doors.png<>uid://clurdcqiy0k6a::::res://Tilesets/Smallburg/assets/housing/house_interiors_assets-export.png<>uid://cuuuwh35qbi6k::::res://Tilesets/Smallburg/assets/housing/house_interiors_assets.png
-icon.svg::CompressedTexture2D::3310762873911945958::1721700744::1721710553::1::::<><>::
-Player.gd::GDScript::-1::1721700744::0::1::::<>CharacterBody2D<>::
-Player.tscn::PackedScene::1069602992162347043::1721700744::0::1::::<><>::res://Player.gd<>uid://dg8g4553a3oes::::res://Player/Basic Charakter Spritesheet.png
-README.md::TextFile::-1::1721700744::0::1::::<><>::
-tile_map.tscn::PackedScene::3857176161986304983::1721700744::0::1::::<><>::uid://xltktvwo0uly::::res://Grass_and_rock.tres
-TurnQueue.gd::GDScript::-1::1721700744::0::1::::TurnQueue<>Node2D<>::
-turn_queue.tscn::PackedScene::1951521486538308225::1721700744::0::1::::<><>::res://TurnQueue.gd<>uid://c8ja2u1wfd65u::::res://icon.svg
-Tutorial.tscn::PackedScene::4353672411738052871::1721700744::0::1::::<><>::uid://bu7pel16d65gl::::res://tile_map.tscn<>uid://pieg78ygra80::::res://Player.tscn
-::res://Enemy/::1721700744
-Enemy.tscn::PackedScene::7667221127966453415::1721700744::0::1::::<><>::
-::res://Levels/::1721700744
-Village.tscn::PackedScene::4653427644187679105::1721700744::0::1::::<><>::
-::res://Player/::1721700744
-::res://Tilesets/::1721700744
-::res://Tilesets/Smallburg/::1721700744
-::res://Tilesets/Smallburg/assets/::1721700744
-::res://Tilesets/Smallburg/assets/housing/::1721700744
-::res://Tilesets/Smallburg/assets/housing/roofs/::1721700744
-::res://Tilesets/Smallburg/assets/housing/walls/::1721700744
-::res://Tilesets/Smallburg/assets/tileset_v2/::1721700744
-::res://Tilesets/Smallburg/assets/tileset_v2/flower_gardens/::1721700744
-::res://Tilesets/Smallburg/assets/tileset_v2/old v1.2/::1721700744
-::res://Tilesets/Smallburg/assets/tileset_v2/terrain/::1721700744
-::res://Tilesets/Smallburg/assets/tileset_v3_wip/::1721700744
-
+::res://::1722200063
+Card_Front_Base.png::CompressedTexture2D::9084291728755458974::1721437706::1721437707::1::::<><>::
+control_card_base.tscn::PackedScene::2220704696015789249::1721438956::0::1::::<><>::uid://d2oq7s6gp81jm::::res://Card_Front_Base.png
+control_card_layout.tscn::PackedScene::5620217049167319660::1722199825::0::1::::<><>::uid://6vyxgjf8r7jx::::res://control_card_base.tscn

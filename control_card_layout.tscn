@@ -1,0 +1,23 @@
+[gd_scene load_steps=2 format=3 uid="uid://cmcqfhwcrcflc"]
+
+[ext_resource type="PackedScene" uid="uid://6vyxgjf8r7jx" path="res://control_card_base.tscn" id="1_buqmw"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="CardFrontBase" parent="." instance=ExtResource("1_buqmw")]
+position = Vector2(2512, 1688)
+
+[node name="CardFrontBase2" parent="." instance=ExtResource("1_buqmw")]
+position = Vector2(7376, 1744)
+
+[node name="CardFrontBase3" parent="." instance=ExtResource("1_buqmw")]
+position = Vector2(5024, 5792)
+
+[node name="CardFrontBase4" parent="." instance=ExtResource("1_buqmw")]
+position = Vector2(2456, 4488)
+
+[node name="CardFrontBase5" parent="." instance=ExtResource("1_buqmw")]
+position = Vector2(7432, 4752)
+
+[node name="CardFrontBase6" parent="." instance=ExtResource("1_buqmw")]
+position = Vector2(4984, 360)
