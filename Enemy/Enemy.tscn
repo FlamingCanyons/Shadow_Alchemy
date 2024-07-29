@@ -1,8 +1,20 @@
-[gd_scene load_steps=16 format=3 uid="uid://dhicanvdqt35d"]
+[gd_scene load_steps=22 format=3 uid="uid://dhicanvdqt35d"]
 
-[ext_resource type="Texture2D" uid="uid://dn0fgj0odujss" path="res://Enemy/enemy_walk_cr_test2_trans.png" id="1_o5hn8"]
+[ext_resource type="Texture2D" uid="uid://cqupkk8p64mhr" path="res://Assets/Enemy/enemy_walk_cr_test2_trans.png" id="1_o5hn8"]
+[ext_resource type="Script" path="res://Enemy/Enemy1.gd" id="1_xuw3s"]
+[ext_resource type="Texture2D" uid="uid://c7oc77a2addpw" path="res://Assets/Enemy/full_enemy_spritesheet_centered_transparent.png" id="1_yr7xm"]
 
-[sub_resource type="CircleShape2D" id="CircleShape2D_r1w7p"]
+[sub_resource type="AtlasTexture" id="AtlasTexture_f3wse"]
+atlas = ExtResource("1_yr7xm")
+region = Rect2(0, 518, 259, 259)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_iedhb"]
+atlas = ExtResource("1_yr7xm")
+region = Rect2(518, 1036, 259, 259)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hyh3v"]
+atlas = ExtResource("1_yr7xm")
+region = Rect2(777, 1036, 259, 259)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_k51c3"]
 atlas = ExtResource("1_o5hn8")
@@ -44,6 +56,26 @@ region = Rect2(259, 780, 259, 260)
 animations = [{
 "frames": [{
 "duration": 1.0,
+"texture": SubResource("AtlasTexture_f3wse")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_iedhb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hyh3v")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_iedhb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_f3wse")
+}],
+"loop": true,
+"name": &"RotateRight2Left",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
 "texture": SubResource("AtlasTexture_k51c3")
 }, {
 "duration": 1.0,
@@ -75,6 +107,45 @@ animations = [{
 "speed": 5.0
 }]
 
+[sub_resource type="Animation" id="Animation_gxa6e"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimatedSprite2D:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("AnimatedSprite2D:animation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [&"Walk"]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("AnimatedSprite2D:flip_h")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+
 [sub_resource type="Animation" id="Animation_h7lq7"]
 resource_name = "Walk"
 length = 0.9
@@ -104,47 +175,100 @@ tracks/1/keys = {
 "values": [&"Walk"]
 }
 
-[sub_resource type="Animation" id="Animation_gxa6e"]
-length = 0.001
+[sub_resource type="Animation" id="Animation_bu7uh"]
+resource_name = "RotateRight2Left"
+length = 0.5
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
-tracks/0/path = NodePath("AnimatedSprite2D:frame")
+tracks/0/path = NodePath("AnimatedSprite2D:animation")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
-"values": [0]
+"update": 1,
+"values": [&"RotateRight2Left"]
 }
 tracks/1/type = "value"
 tracks/1/imported = false
 tracks/1/enabled = true
-tracks/1/path = NodePath("AnimatedSprite2D:animation")
+tracks/1/path = NodePath("AnimatedSprite2D:frame")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
 tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.4),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 1,
+"values": [0, 1, 2, 1, 0]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("AnimatedSprite2D:flip_h")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.3),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [false, true]
+}
+
+[sub_resource type="Animation" id="Animation_37otu"]
+resource_name = "RotateLeft2Right"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimatedSprite2D:animation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
-"values": [&"Walk"]
+"update": 1,
+"values": [&"RotateRight2Left"]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("AnimatedSprite2D:frame")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.4),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 1,
+"values": [0, 1, 2, 3, 4]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("AnimatedSprite2D:flip_h")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.3),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [true, false]
 }
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_6eltv"]
 _data = {
 "RESET": SubResource("Animation_gxa6e"),
+"RotateLeft2Right": SubResource("Animation_37otu"),
+"RotateRight2Left": SubResource("Animation_bu7uh"),
 "Walk": SubResource("Animation_h7lq7")
 }
 
-[node name="RigidBody2D" type="RigidBody2D"]
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-shape = SubResource("CircleShape2D_r1w7p")
+[node name="Enemy" type="Node2D"]
+script = ExtResource("1_xuw3s")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-position = Vector2(189, 162)
-scale = Vector2(1.01737, 0.992308)
+position = Vector2(2.38419e-07, 4.76837e-07)
+scale = Vector2(0.152268, 0.146154)
 sprite_frames = SubResource("SpriteFrames_ya35i")
 animation = &"Walk"
 
@@ -152,3 +276,13 @@ animation = &"Walk"
 libraries = {
 "": SubResource("AnimationLibrary_6eltv")
 }
+
+[node name="RayCastLeft" type="RayCast2D" parent="."]
+position = Vector2(-1, 0)
+target_position = Vector2(-8, 0)
+collide_with_areas = true
+
+[node name="RayCastRight" type="RayCast2D" parent="."]
+position = Vector2(1, 0)
+target_position = Vector2(8, 0)
+collide_with_areas = true

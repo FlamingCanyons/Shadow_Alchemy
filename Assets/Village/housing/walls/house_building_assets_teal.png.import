@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c8teoxovhp7su"
-path="res://.godot/imported/house_building_assets_teal.png-382c2985988703d634cd3dfe23c23209.ctex"
+path="res://.godot/imported/house_building_assets_teal.png-6251f35cbbe5644c117a3a0fe6e0d1a8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Tilesets/Smallburg/assets/housing/walls/house_building_assets_teal.png"
-dest_files=["res://.godot/imported/house_building_assets_teal.png-382c2985988703d634cd3dfe23c23209.ctex"]
+source_file="res://Assets/Village/housing/walls/house_building_assets_teal.png"
+dest_files=["res://.godot/imported/house_building_assets_teal.png-6251f35cbbe5644c117a3a0fe6e0d1a8.ctex"]
 
 [params]
 

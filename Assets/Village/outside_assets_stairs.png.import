@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bgdd865m4rfl2"
-path="res://.godot/imported/outside_assets_stairs.png-be80c267af518b39b785e64a882afb17.ctex"
+path="res://.godot/imported/outside_assets_stairs.png-1c5cdf2302999a20299df1d2cc5b4626.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Tilesets/Smallburg/assets/tileset_v2/outside_assets_stairs.png"
-dest_files=["res://.godot/imported/outside_assets_stairs.png-be80c267af518b39b785e64a882afb17.ctex"]
+source_file="res://Assets/Village/outside_assets_stairs.png"
+dest_files=["res://.godot/imported/outside_assets_stairs.png-1c5cdf2302999a20299df1d2cc5b4626.ctex"]
 
 [params]
 

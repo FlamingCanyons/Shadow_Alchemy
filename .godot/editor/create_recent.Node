@@ -1,9 +1,7 @@
-AnimationPlayer
-AnimatedSprite2D
+Area2D
 CollisionShape2D
 RigidBody2D
-Camera2D
-AnimationTree
-CharacterBody2D
+StaticBody2D
 Node2D
-TileMap
+CharacterBody2D
+RayCast2D

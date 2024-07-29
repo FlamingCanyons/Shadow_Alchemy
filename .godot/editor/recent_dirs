@@ -1,5 +1,6 @@
-res://Enemy
-res://
-res://Tilesets
-res://Player
+res://Assets/Player
+res://Assets/Enemy
 res://Levels
+res://Player
+res://
+res://Enemy

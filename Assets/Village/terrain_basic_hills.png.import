@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c5i8smrt2od1p"
-path="res://.godot/imported/terrain_basic_hills.png-883a007afb6ddfdb84123c874edfae8e.ctex"
+path="res://.godot/imported/terrain_basic_hills.png-4f8e0258d7431600d41a4f9564ff57b1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Tilesets/Smallburg/assets/tileset_v3_wip/terrain_basic_hills.png"
-dest_files=["res://.godot/imported/terrain_basic_hills.png-883a007afb6ddfdb84123c874edfae8e.ctex"]
+source_file="res://Assets/Village/terrain_basic_hills.png"
+dest_files=["res://.godot/imported/terrain_basic_hills.png-4f8e0258d7431600d41a4f9564ff57b1.ctex"]
 
 [params]
 

@@ -1,0 +1,74 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1722202202
+Grass_and_rock.tres::TileSet::2475245620460632421::1722199254::0::1::::<><>::uid://d3bcqrk3fu5pp::::res://Assets/Forest/TX Tileset Grass.png<>uid://c8j0562vb3k42::::res://Assets/Village/housing/roofs/housing_system_roofs.png<>uid://byb5q5pem8hpb::::res://Assets/Village/housing/walls/house_building_assets_brown.png<>uid://cefm7xchu8lbl::::res://Assets/Village/SmallBurg_outside_assets.png<>uid://c00b221e00kh8::::res://Assets/Village/SmallBurg_outside_assets_shadows.png<>uid://bjc4ywtml3ilq::::res://Assets/Village/housing/house_doors.png<>uid://clurdcqiy0k6a::::res://Assets/Village/housing/house_interiors_assets-export.png<>uid://cuuuwh35qbi6k::::res://Assets/Village/housing/house_interiors_assets.png
+icon.svg::CompressedTexture2D::9192295820177029691::1722198295::1722198302::1::::<><>::
+::res://Assets/::1722198588
+::res://Assets/Enemy/::1722198598
+B4.png::CompressedTexture2D::2887269555761935097::1722198562::1722198597::1::::<><>::
+enemy_walk_cr_test2_trans.png::CompressedTexture2D::5938079610442620583::1722198562::1722198597::1::::<><>::
+full_enemy_spritesheet.png::CompressedTexture2D::655981044929590799::1722198562::1722198597::1::::<><>::
+full_enemy_spritesheet_centered.png::CompressedTexture2D::3592421380768791689::1722198562::1722198598::1::::<><>::
+full_enemy_spritesheet_centered_transparent.png::CompressedTexture2D::7047965913724647832::1722198562::1722198598::1::::<><>::
+full_enemy_spritesheet_cr.png::CompressedTexture2D::448240347334791647::1722198562::1722198598::1::::<><>::
+::res://Assets/Forest/::1722198597
+TX Plant.png::CompressedTexture2D::7247121201333945602::1722198562::1722198597::1::::<><>::
+TX Props.png::CompressedTexture2D::3112080936057246693::1722198562::1722198597::1::::<><>::
+TX Shadow.png::CompressedTexture2D::1006750838872986087::1722198562::1722198597::1::::<><>::
+TX Tileset Grass.png::CompressedTexture2D::9126764967010972405::1722198562::1722198597::1::::<><>::
+TX Tileset Stone Ground.png::CompressedTexture2D::492009929460756152::1722198562::1722198597::1::::<><>::
+TX Tileset Wall.png::CompressedTexture2D::1132007022956874492::1722198562::1722198597::1::::<><>::
+::res://Assets/Player/::1722198597
+pc_walk_and_rotation.png::CompressedTexture2D::7044165606933023391::1722198562::1722198597::1::::<><>::
+pc_walk_and_rotation_centered.png::CompressedTexture2D::6816561285123227212::1722198562::1722198597::1::::<><>::
+pc_walk_and_rotation_centered_trans1.png::CompressedTexture2D::2759754380957906334::1722202687::1722202690::1::::<><>::
+pc_walk_and_rotation_centered_trans.png::CompressedTexture2D::850550329014767325::1722198562::1722198596::1::::<><>::
+pc_walk_and_rotation_cr.png::CompressedTexture2D::2939895824254282443::1722198562::1722198596::1::::<><>::
+::res://Assets/Village/::1722198597
+bushes_destruction.png::CompressedTexture2D::1942326521991346870::1722198563::1722198597::1::::<><>::
+bushes_destruction_shadow.png::CompressedTexture2D::3033520800951466937::1722198563::1722198597::1::::<><>::
+outside_assets_stairs.png::CompressedTexture2D::2813989636113275773::1722198563::1722198597::1::::<><>::
+SmallBurg_outside_assets.png::CompressedTexture2D::5064705591499531393::1722198563::1722198597::1::::<><>::
+SmallBurg_outside_assets_shadows.png::CompressedTexture2D::6579282294128217999::1722198563::1722198597::1::::<><>::
+terrain_basic_hills.png::CompressedTexture2D::6897058161053018831::1722198563::1722198597::1::::<><>::
+terrain_decorated_hills.png::CompressedTexture2D::858993550923641164::1722198563::1722198597::1::::<><>::
+::res://Assets/Village/flower_gardens/::1722198597
+flower_gardens_ciment_empty.png::CompressedTexture2D::6705852970526357097::1722198564::1722198597::1::::<><>::
+flower_gardens_ciment_plants.png::CompressedTexture2D::741311416932531924::1722198564::1722198597::1::::<><>::
+flower_gardens_ciment_soil.png::CompressedTexture2D::2568546355382152829::1722198564::1722198595::1::::<><>::
+flower_gardens_wood_empty.png::CompressedTexture2D::6045054058460694983::1722198564::1722198595::1::::<><>::
+flower_gardens_wood_plants.png::CompressedTexture2D::6475339156739100878::1722198564::1722198595::1::::<><>::
+flower_gardens_wood_soil.png::CompressedTexture2D::153302750731253520::1722198564::1722198595::1::::<><>::
+::res://Assets/Village/housing/::1722198595
+house_doors.png::CompressedTexture2D::3024053869213479030::1722198563::1722198595::1::::<><>::
+house_interiors_assets-export.png::CompressedTexture2D::5587243878904620046::1722198563::1722198595::1::::<><>::
+house_interiors_assets.png::CompressedTexture2D::6219159834851750672::1722198563::1722198595::1::::<><>::
+::res://Assets/Village/housing/roofs/::1722198595
+housing_system_roofs.png::CompressedTexture2D::7109225776754284269::1722198564::1722198595::1::::<><>::
+::res://Assets/Village/housing/walls/::1722198595
+house_building_assets.png::CompressedTexture2D::8995781803775804981::1722198563::1722198595::1::::<><>::
+house_building_assets_blue.png::CompressedTexture2D::5570112171765979143::1722198563::1722198595::1::::<><>::
+house_building_assets_brown.png::CompressedTexture2D::4074868990317064227::1722198564::1722198595::1::::<><>::
+house_building_assets_brown_light.png::CompressedTexture2D::5235041759320343770::1722198563::1722198595::1::::<><>::
+house_building_assets_green.png::CompressedTexture2D::5349981073400235915::1722198564::1722198595::1::::<><>::
+house_building_assets_green_light.png::CompressedTexture2D::1869616902006487207::1722198563::1722198595::1::::<><>::
+house_building_assets_grey.png::CompressedTexture2D::4493977413939620610::1722198564::1722198595::1::::<><>::
+house_building_assets_orange.png::CompressedTexture2D::3458808449427606124::1722198564::1722198595::1::::<><>::
+house_building_assets_pink.png::CompressedTexture2D::5400893909051108123::1722198563::1722198595::1::::<><>::
+house_building_assets_red.png::CompressedTexture2D::3795118082627108979::1722198563::1722198595::1::::<><>::
+house_building_assets_red_light.png::CompressedTexture2D::4698715089461469756::1722198563::1722198595::1::::<><>::
+house_building_assets_shadows.png::CompressedTexture2D::7771958072179997954::1722198563::1722198595::1::::<><>::
+house_building_assets_teal.png::CompressedTexture2D::7128565484482581504::1722198564::1722198595::1::::<><>::
+house_building_assets_yellow.png::CompressedTexture2D::3525974444738172955::1722198563::1722198595::1::::<><>::
+::res://Assets/Village/terrain/::1722198595
+smallburg_beach_spring_terrain.png::CompressedTexture2D::6887173646963851320::1722198564::1722198595::1::::<><>::
+smallburg_terrain_spring.png::CompressedTexture2D::297226290207492647::1722198564::1722198595::1::::<><>::
+smallburg_terrain_spring_with_shadows.png::CompressedTexture2D::5868680057539284533::1722198564::1722198595::1::::<><>::
+::res://Enemy/::1722202244
+Enemy.tscn::PackedScene::7667221127966453415::1722202244::0::1::::<><>::uid://cqupkk8p64mhr::::res://Assets/Enemy/enemy_walk_cr_test2_trans.png<>uid://c7oc77a2addpw::::res://Assets/Enemy/full_enemy_spritesheet_centered_transparent.png
+::res://Levels/::1722202245
+tile_map.tscn::PackedScene::3857176161986304983::1722202244::0::1::::<><>::uid://bbja60nmpk5k0::::res://Grass_and_rock.tres
+Tutorial.tscn::PackedScene::6307395665582909747::1722202245::0::1::::<><>::uid://bu7pel16d65gl::::res://Levels/tile_map.tscn<>uid://pieg78ygra80::::res://Player/Player.tscn
+Village.tscn::PackedScene::4653427644187679105::1722202244::0::1::::<><>::
+::res://Player/::1722202513
+Player.gd::GDScript::-1::1722201587::0::1::::<>CharacterBody2D<>::
+Player.tscn::PackedScene::1069602992162347043::1722202513::0::1::::<><>::res://Player/Player.gd<>uid://bfk30sw7vytra::::res://Assets/Player/pc_walk_and_rotation_centered_trans1.png

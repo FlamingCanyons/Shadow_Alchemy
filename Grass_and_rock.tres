@@ -1,13 +1,13 @@
-[gd_resource type="TileSet" load_steps=17 format=3 uid="uid://xltktvwo0uly"]
+[gd_resource type="TileSet" load_steps=17 format=3 uid="uid://bbja60nmpk5k0"]
 
-[ext_resource type="Texture2D" uid="uid://d3bcqrk3fu5pp" path="res://Tilesets/TX Tileset Grass.png" id="3_bk6ex"]
-[ext_resource type="Texture2D" uid="uid://c8j0562vb3k42" path="res://Tilesets/Smallburg/assets/housing/roofs/housing_system_roofs.png" id="3_w0ts0"]
-[ext_resource type="Texture2D" uid="uid://byb5q5pem8hpb" path="res://Tilesets/Smallburg/assets/housing/walls/house_building_assets_brown.png" id="4_d3p3s"]
-[ext_resource type="Texture2D" uid="uid://cefm7xchu8lbl" path="res://Tilesets/Smallburg/assets/tileset_v2/SmallBurg_outside_assets.png" id="8_h3gpi"]
-[ext_resource type="Texture2D" uid="uid://c00b221e00kh8" path="res://Tilesets/Smallburg/assets/tileset_v2/SmallBurg_outside_assets_shadows.png" id="9_ij0ei"]
-[ext_resource type="Texture2D" uid="uid://bjc4ywtml3ilq" path="res://Tilesets/Smallburg/assets/housing/house_doors.png" id="10_vdotc"]
-[ext_resource type="Texture2D" uid="uid://clurdcqiy0k6a" path="res://Tilesets/Smallburg/assets/housing/house_interiors_assets-export.png" id="11_oamgp"]
-[ext_resource type="Texture2D" uid="uid://cuuuwh35qbi6k" path="res://Tilesets/Smallburg/assets/housing/house_interiors_assets.png" id="12_3dlcf"]
+[ext_resource type="Texture2D" uid="uid://d3bcqrk3fu5pp" path="res://Assets/Forest/TX Tileset Grass.png" id="3_bk6ex"]
+[ext_resource type="Texture2D" uid="uid://c8j0562vb3k42" path="res://Assets/Village/housing/roofs/housing_system_roofs.png" id="3_w0ts0"]
+[ext_resource type="Texture2D" uid="uid://byb5q5pem8hpb" path="res://Assets/Village/housing/walls/house_building_assets_brown.png" id="4_d3p3s"]
+[ext_resource type="Texture2D" uid="uid://cefm7xchu8lbl" path="res://Assets/Village/SmallBurg_outside_assets.png" id="8_h3gpi"]
+[ext_resource type="Texture2D" uid="uid://c00b221e00kh8" path="res://Assets/Village/SmallBurg_outside_assets_shadows.png" id="9_ij0ei"]
+[ext_resource type="Texture2D" uid="uid://bjc4ywtml3ilq" path="res://Assets/Village/housing/house_doors.png" id="10_vdotc"]
+[ext_resource type="Texture2D" uid="uid://clurdcqiy0k6a" path="res://Assets/Village/housing/house_interiors_assets-export.png" id="11_oamgp"]
+[ext_resource type="Texture2D" uid="uid://cuuuwh35qbi6k" path="res://Assets/Village/housing/house_interiors_assets.png" id="12_3dlcf"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_7ukx5"]
 texture = ExtResource("3_w0ts0")

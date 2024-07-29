@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://2w43mfdljidy"
-path="res://.godot/imported/bushes_destruction.png-e4ec078d2022077220570878c35fc58d.ctex"
+path="res://.godot/imported/bushes_destruction.png-8892808ec630ea4498fd4af2d2246602.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Tilesets/Smallburg/assets/tileset_v2/bushes_destruction.png"
-dest_files=["res://.godot/imported/bushes_destruction.png-e4ec078d2022077220570878c35fc58d.ctex"]
+source_file="res://Assets/Village/bushes_destruction.png"
+dest_files=["res://.godot/imported/bushes_destruction.png-8892808ec630ea4498fd4af2d2246602.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c00b221e00kh8"
-path="res://.godot/imported/SmallBurg_outside_assets_shadows.png-87bf6ca71ef0c146ffbe69990b58b727.ctex"
+path="res://.godot/imported/SmallBurg_outside_assets_shadows.png-6e85d49af4c15691b789ce858475b1a9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Tilesets/Smallburg/assets/tileset_v2/SmallBurg_outside_assets_shadows.png"
-dest_files=["res://.godot/imported/SmallBurg_outside_assets_shadows.png-87bf6ca71ef0c146ffbe69990b58b727.ctex"]
+source_file="res://Assets/Village/SmallBurg_outside_assets_shadows.png"
+dest_files=["res://.godot/imported/SmallBurg_outside_assets_shadows.png-6e85d49af4c15691b789ce858475b1a9.ctex"]
 
 [params]
 

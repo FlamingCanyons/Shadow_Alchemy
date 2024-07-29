@@ -1,2 +1,9 @@
 res://Enemy/Enemy.tscn
+res://Levels/tile_map.tscn
+res://Player/Player.tscn
 res://Grass_and_rock.tres
+res://Levels/Tutorial.tscn
+res://Levels/Village.tscn
+res://Player/Player.gd
+res://Enemy/Enemy.gd
+res://Enemy/Enemy1.gd

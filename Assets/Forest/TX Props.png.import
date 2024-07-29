@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bklrrvgxiwbj6"
-path="res://.godot/imported/TX Props.png-d149878e90cae9f87d6a11232c4508e4.ctex"
+path="res://.godot/imported/TX Props.png-1a0a1e34c3092e6073b670c2efb7147e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Tilesets/TX Props.png"
-dest_files=["res://.godot/imported/TX Props.png-d149878e90cae9f87d6a11232c4508e4.ctex"]
+source_file="res://Assets/Forest/TX Props.png"
+dest_files=["res://.godot/imported/TX Props.png-1a0a1e34c3092e6073b670c2efb7147e.ctex"]
 
 [params]
 
